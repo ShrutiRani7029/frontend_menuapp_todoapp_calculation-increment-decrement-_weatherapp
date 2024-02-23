@@ -1,0 +1,117 @@
+/* Add your existing styles here */
+
+.main-card--container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Adjust as needed */
+  }
+  
+  .card-container {
+    width: 30%; /* Adjust as needed */
+    margin: 10px;
+  }
+  
+  .card {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-number {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+  }
+  
+  .card-circle {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 50%;
+    line-height: 40px;
+  }
+  
+  .subtle {
+    opacity: 0.7;
+  }
+  
+  .card-author, .card-title {
+    margin-bottom: 10px;
+  }
+  
+  .card-read {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card-read:hover {
+    background-color: #2779b8;
+  }
+  
+  .card-description {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .card-tag {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #e74c3c;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .card-media {
+    width: 100%; /* Make the image take the full width of its container */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 10px 10px 0 0; /* Rounded corners at the top */
+  }
+  
+  /* Add any additional styles as needed */
+  /*navbar styling */
+  .navbar {
+    background-color: #3498db; /* Set the background color of the navbar */
+    padding: 10px; /* Add padding for better spacing */
+  }
+  
+  .btn-group {
+    display: flex;
+  }
+  
+  .btn-group__item {
+    background-color: #fff; /* Set the background color of the button */
+    color: #333; /* Set the text color of the button */
+    padding: 10px 20px; /* Add padding to the button */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add rounded corners to the button */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    margin-right: 10px; /* Add margin between buttons */
+    font-size: 16px; /* Set the font size */
+  }
+  
+  .btn-group__item:hover {
+    background-color: #ecf0f1; /* Change background color on hover */
+  }
+  
+  

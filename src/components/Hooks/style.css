@@ -1,0 +1,54 @@
+.center_div {
+    text-align: center;
+  }
+  
+  .button2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .button2 span {
+    position: absolute;
+    display: block;
+  }
+  
+  .button2 span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #fff);
+    animation: animate1 1s linear infinite;
+  }
+  
+  .button2 span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #fff);
+    animation: animate2 1s linear infinite;
+  }
+  
+  /* Add more animations for other spans as needed */
+  
+  @keyframes animate1 {
+    0%, 100% {
+      left: 100%;
+    }
+    50% {
+      left: 0;
+    }
+}
+
+p{
+    color: black;
+    text-align:center;
+    font-size: 60px;
+    margin-bottom: 50px;
+}

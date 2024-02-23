@@ -1,0 +1,84 @@
+/* style.css */
+
+.main-div {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #099309;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+  }
+  
+  .child-div {
+    margin-top: 20px;
+  }
+  
+  .addItems {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .form-control {
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .add-btn {
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .showItems {
+    margin-top: 20px;
+  }
+  
+  .EachItem {
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  
+  .todo-btn {
+    display: flex;
+  }
+  
+  .btn.effect04 span {
+    position: relative;
+    transition: all 0.3s;
+  }
+  
+  .btn.effect04 span::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s;
+  }
+  
+  .btn.effect04:hover span {
+    transform: translateY(-7px);
+  }
+  
+  .btn.effect04:hover span::before {
+    height: 100%;
+    left: 0;
+  }
+  
+  /* Add any additional styling as per your requirements */
+  
